@@ -1,0 +1,90 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body{
+    background: url(ricardo-gomez-angel-5YM26lUicfU-unsplash.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.calculadora{
+    background: rgba(25, 13, 13, 0.904);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.3);
+    color: rgb(42, 42, 42);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.resultado{
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    background: #dedadaac;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 2px solid rgba(56, 56, 56, 0.51);
+    text-align: right;
+    font-size: 2.0em;
+    margin: 5% 7.6px ;
+    border-radius: 12.5px;
+    color: black;
+    padding: 5px;
+    box-shadow: 4px 0 35px rgba(176, 175, 175, 0.314);
+    
+    
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    margin: 7.5px;
+}
+
+.botoes-da-calculadora{
+    flex-basis: 20%;
+    height: 65px;
+    font-size: 24px;
+    font-family: inherit    ;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(146, 141, 141, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(236, 236, 236, 0.215);
+    color: rgb(152, 152, 152);
+}
+
+.botoes-da-calculadora:last-child{
+    backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(146, 141, 141, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(227, 227, 227, 0.177);
+    background: rgb(255, 254, 255);
+    color: rgb(187, 185, 185);
+}
+
+.botoes-da-calculadora:hover{
+    background: inherit;
+}
+
+.c{
+    flex-basis: 43%;
+}
+
+.zero{
+    flex-basis: 74%;
+}
